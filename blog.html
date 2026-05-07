@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog-Focale</title>
+  <!-- Font Awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- bootstrap icon cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- LOder section start -->
+  <section class="loading-wrpr" id="preloader">
+    <div class="loading">
+      <svg viewBox="0 0 64 48">
+        <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="back"></polyline>
+        <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="front"></polyline>
+      </svg>
+    </div>
+  </section>
+  <!-- loader section end -->
+  <!-- Navbar start -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/images/logo.png" alt="Focale Logo" />
+          </a>
+        </div>
+
+        <div class="navbar-links">
+          <ul class="navlinks" id="nav-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="blog.html" class="active">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+
+          <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Navbar end -->
+  <main>
+    <!-- Blog Section start -->
+    <section class="blog-section">
+      <div class="container">
+        <div class="blog-header">
+          <p>Recent Articles</p>
+          <h2>Blogs</h2>
+        </div>
+        <div class="row">
+          <div class="col-60">
+            <!-- card-1 -->
+            <div class="blog-card" data-aos="fade-up">
+              <div class="blog-img-container">
+                <figure class="blog-image">
+                  <img src="assets/images/blog-1.png" alt="Creative Lense" loading="lazy" />
+                </figure>
+
+                <div class="date-box">
+                  <span class="month">DEC</span>
+                  <span class="day">18</span>
+                </div>
+              </div>
+
+              <div class="blog-details">
+                <p class="blog-meta">
+                  BLOG - <span class="category-name">ART</span>
+                </p>
+                <h3 class="blog-title">Through The Creative Lense</h3>
+                <p class="blog-text">
+                  Photography Potenti Fringilla Pretium Ipsum Non Blandit.
+                  Vivamus Eget Nisi Non Mi Iaculis Iaculis Imserie Quiseros
+                  Sevin Elentesque Habitant Morbi Tristique Senectus Et Netus
+                  Et Malesuada Fames Actur Fermen.Photography Potenti
+                  Fringilla Pretium Ipsum Non Blandit...
+                  <a href="#" class="read-more">Read More</a>
+                </p>
+              </div>
+            </div>
+            <!-- Card-2 -->
+            <div class="blog-card" data-aos="fade-up">
+              <div class="blog-img-container">
+                <figure class="blog-image">
+                  <img src="assets/images/blog-2.png" alt="Creative Lense" loading="lazy" />
+                </figure>
+
+                <div class="date-box">
+                  <span class="month">DEC</span>
+                  <span class="day">18</span>
+                </div>
+              </div>
+
+              <div class="blog-details">
+                <p class="blog-meta">
+                  BLOG - <span class="category-name">WEDDING</span>
+                </p>
+                <h3 class="blog-title">Through The Creative Lense</h3>
+                <p class="blog-text">
+                  Photography Potenti Fringilla Pretium Ipsum Non Blandit.
+                  Vivamus Eget Nisi Non Mi Iaculis Iaculis Imserie Quiseros
+                  Sevin Elentesque Habitant Morbi Tristique Senectus Et Netus
+                  Et Malesuada Fames Actur Fermen.Photography Potenti
+                  Fringilla Pretium Ipsum Non Blandit...
+                  <a href="#" class="read-more">Read More</a>
+                </p>
+              </div>
+            </div>
+            <!-- Card-3 -->
+            <div class="blog-card" data-aos="fade-up">
+              <div class="blog-img-container">
+                <figure class="blog-image">
+                  <img src="assets/images/blog-3.png" alt="Creative Lense" loading="lazy" />
+                </figure>
+
+                <div class="date-box">
+                  <span class="month">DEC</span>
+                  <span class="day">18</span>
+                </div>
+              </div>
+
+              <div class="blog-details">
+                <p class="blog-meta">
+                  BLOG - <span class="category-name">NATURE</span>
+                </p>
+                <h3 class="blog-title">Through The Creative Lense</h3>
+                <p class="blog-text">
+                  Photography Potenti Fringilla Pretium Ipsum Non Blandit.
+                  Vivamus Eget Nisi Non Mi Iaculis Iaculis Imserie Quiseros
+                  Sevin Elentesque Habitant Morbi Tristique Senectus Et Netus
+                  Et Malesuada Fames Actur Fermen.Photography Potenti
+                  Fringilla Pretium Ipsum Non Blandit...
+                  <a href="#" class="read-more">Read More</a>
+                </p>
+              </div>
+            </div>
+            <!-- Card-4 -->
+            <div class="blog-card" data-aos="fade-up">
+              <div class="blog-img-container">
+                <figure class="blog-image">
+                  <img src="assets/images/blog-4.png" alt="Creative Lense" loading="lazy" />
+                </figure>
+
+                <div class="date-box">
+                  <span class="month">DEC</span>
+                  <span class="day">18</span>
+                </div>
+              </div>
+
+              <div class="blog-details">
+                <p class="blog-meta">
+                  BLOG - <span class="category-name">PORTRAIT</span>
+                </p>
+                <h3 class="blog-title">Through The Creative Lense</h3>
+                <p class="blog-text">
+                  Photography Potenti Fringilla Pretium Ipsum Non Blandit.
+                  Vivamus Eget Nisi Non Mi Iaculis Iaculis Imserie Quiseros
+                  Sevin Elentesque Habitant Morbi Tristique Senectus Et Netus
+                  Et Malesuada Fames Actur Fermen.Photography Potenti
+                  Fringilla Pretium Ipsum Non Blandit...
+                  <a href="#" class="read-more">Read More</a>
+                </p>
+              </div>
+            </div>
+            <!-- card-5 -->
+            <div class="blog-card" data-aos="fade-up">
+              <div class="blog-img-container">
+                <figure class="blog-image">
+                  <img src="assets/images/blog-5.png" alt="Creative Lense" loading="lazy" />
+                </figure>
+
+                <div class="date-box">
+                  <span class="month">DEC</span>
+                  <span class="day">18</span>
+                </div>
+              </div>
+
+              <div class="blog-details">
+                <p class="blog-meta">
+                  BLOG - <span class="category-name">SPORTS</span>
+                </p>
+                <h3 class="blog-title">Through The Creative Lense</h3>
+                <p class="blog-text">
+                  Photography Potenti Fringilla Pretium Ipsum Non Blandit.
+                  Vivamus Eget Nisi Non Mi Iaculis Iaculis Imserie Quiseros
+                  Sevin Elentesque Habitant Morbi Tristique Senectus Et Netus
+                  Et Malesuada Fames Actur Fermen.Photography Potenti
+                  Fringilla Pretium Ipsum Non Blandit...
+                  <a href="#" class="read-more">Read More</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-40">
+            <div class="sidebar-wrapper">
+              <div class="sidebar-widget search-widget" data-aos="fade-left">
+                <div class="inner-search-box">
+                  <form class="search-form">
+                    <input type="text" placeholder="Type Here" class="search-input" />
+                    <button type="submit" class="search-btn">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="sidebar-widget recent-posts-card" data-aos="fade-left" data-aos-delay="100">
+                <h4 class="widget-title">Recent Posts</h4>
+                <div class="posts-list">
+                  <div class="mini-post-item">
+                    <figure class="mini-post-img">
+                      <img src="assets/images/blog-6.png" alt="Art" loading="lazy" />
+                    </figure>
+                    <div class="mini-post-content">
+                      <p class="mini-meta">
+                        BLOG - <span class="category-name">ART</span>
+                      </p>
+                      <h5 class="mini-title">Through The Creative Lense</h5>
+                    </div>
+                  </div>
+
+                  <div class="mini-post-item">
+                    <figure class="mini-post-img">
+                      <img src="assets/images/blog-7.png" alt="Nature" loading="lazy" />
+                    </figure>
+                    <div class="mini-post-content">
+                      <p class="mini-meta">
+                        BLOG - <span class="category-name">NATURE</span>
+                      </p>
+                      <h5 class="mini-title">Through The Creative Lense</h5>
+                    </div>
+                  </div>
+
+                  <div class="mini-post-item">
+                    <figure class="mini-post-img">
+                      <img src="assets/images/blog-8.png" alt="Portrait" loading="lazy" />
+                    </figure>
+                    <div class="mini-post-content">
+                      <p class="mini-meta">
+                        BLOG - <span class="category-name">PORTRAIT</span>
+                      </p>
+                      <h5 class="mini-title">Through The Creative Lense</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sidebar-widget archives-card" data-aos="fade-left" data-aos-delay="200">
+                <h4 class="widget-title">Archives</h4>
+                <ul class="archive-list">
+                  <li><a href="#">December 2026</a></li>
+                  <li><a href="#">November 2026</a></li>
+                  <li><a href="#">October 2026</a></li>
+                </ul>
+              </div>
+
+              <div class="sidebar-widget category-card" data-aos="fade-left" data-aos-delay="300">
+                <h4 class="widget-title">Category</h4>
+                <ul class="category-list">
+                  <li>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i> Wedding</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i> Art</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i> Nature</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i> Fashion</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="sidebar-widget tags-card" data-aos="fade-left" data-aos-delay="400">
+                <h4 class="widget-title">Tags</h4>
+                <div class="tags-container">
+                  <a href="#" class="tag-link">#Portraits</a>
+                  <a href="#" class="tag-link">#Nature</a>
+                  <a href="#" class="tag-link">#Travel</a>
+                  <a href="#" class="tag-link">#Art</a>
+                  <a href="#" class="tag-link">#Photography</a>
+                  <a href="#" class="tag-link">#Fashion</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pagination-wrapper">
+            <div class="pagination">
+              <a href="#" class="page-btn arrow">
+                <i class="fa-solid fa-chevron-left"></i>
+              </a>
+
+              <a href="#" class="page-btn">1</a>
+              <a href="#" class="page-btn active">2</a>
+              <a href="#" class="page-btn">3</a>
+
+              <a href="#" class="page-btn arrow">
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog Section end -->
+  </main>
+
+  <!-- footer section start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row footer-content">
+        <div class="col-25">
+          <div class="footer-logo">
+            <a href="blog.html"><img src="assets/images/logo.png" alt="logo" loading="lazy" /></a>
+          </div>
+        </div>
+
+        <div class="col-25">
+          <div class="footer-title">Get In Touch</div>
+          <ul class="footer-links">
+            <li><a href="mailto:hello@focale.com">Hello@FOCALÉ.Com</a></li>
+            <li><a href="tel:+12345678910">+1 234-567-8910</a></li>
+          </ul>
+        </div>
+
+        <div class="col-25">
+          <div class="footer-title">Locations</div>
+          <ul class="footer-links">
+            <li><a href="#">San Francisco — California</a></li>
+            <li><a href="#">Palo Alto — Santa Clara</a></li>
+          </ul>
+        </div>
+
+        <div class="col-25 social-col">
+          <div class="social-icons">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 All Right Reserved By
+          <a href="blog.html" class="focale">FOCALÉ</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end -->
+
+  <script>
+    window.addEventListener("load", function () {
+      const preloader = document.getElementById("preloader");
+      setTimeout(() => {
+        document.body.classList.add("loaded");
+      }, 500);
+    });
+  </script>
+
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("nav-menu");
+    const navLinks = document.querySelectorAll(".navlinks li a");
+
+    hamburger.addEventListener("click", (e) => {
+      e.stopPropagation();
+      navMenu.classList.toggle("active");
+
+      const icon = hamburger.querySelector("i");
+      icon.classList.toggle("fa-bars");
+      icon.classList.toggle("fa-xmark");
+    });
+
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        navMenu.classList.remove("active");
+        hamburger.querySelector("i").classList.add("fa-bars");
+        hamburger.querySelector("i").classList.remove("fa-xmark");
+      });
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!navMenu.contains(e.target) && !hamburger.contains(e.target)) {
+        navMenu.classList.remove("active");
+        hamburger.querySelector("i").classList.add("fa-bars");
+        hamburger.querySelector("i").classList.remove("fa-xmark");
+      }
+    });
+  </script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+</body>
+
+</html>
